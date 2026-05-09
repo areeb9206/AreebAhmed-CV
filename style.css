@@ -708,6 +708,10 @@ footer{
 
 }
 
+.section{
+  padding:25px 6% !important;
+}
+
 /* =========================
         RESPONSIVE
 ========================= */
@@ -720,15 +724,45 @@ footer{
 
     text-align:center;
 
+    gap:40px;
+
+  }
+
+  .hero-content{
+
+    order:2;
+
+  }
+
+  .hero-img{
+
+    order:1;
+
+    margin-top:20px;
+
   }
 
   .hero-buttons{
+
     justify-content:center;
+
   }
 
 }
 
 @media(max-width:768px){
+  .hero{
+
+    padding-top:140px;
+  
+  }
+  
+  .hero-img img{
+  
+    width:240px;
+    height:240px;
+  
+  }
 
   .nav-links{
     gap:18px;
@@ -756,6 +790,22 @@ footer{
 
 }
 
+  h2{
+    text-align:center;
+    display:block;
+  }
+
+  h2::after,
+  h2::before{
+    left:50%;
+    transform:translateX(-50%);
+  }
+
+
+.section{
+  padding:70px 7%;
+}
+
 @media(max-width:480px){
 
   .hero-content h1{
@@ -767,6 +817,9 @@ footer{
     width:220px;
     height:220px;
 
+  }
+  .section{
+    padding:60px 6%;
   }
 
 }
