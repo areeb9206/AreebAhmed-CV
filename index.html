@@ -1,94 +1,513 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Areeb Ahmed CV</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>
+    Areeb Ahmed | Portfolio
+  </title>
+
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+
+  <!-- Google Font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  >
+
+ 
 </head>
+
 <body>
-  <div class="cv-container">
-    <aside class="sidebar">
-      <div class="profile">
-        <img src="withoutedit.jpg" alt="Profile Photo of Areeb Ahmed" class="profile-pic" />
-        <h1>Areeb Ahmed</h1>
-        <p>Flat No 19, 2nd Floor, Block No 2, Old Zeenat</p>
-        <p><i class="fas fa-phone"></i> <a href="tel:+923152906839">0315-2906839</a></p>
-        <p><i class="fas fa-envelope"></i> <a href="mailto:areebahmed200801@gmail.com">areebahmed200801@gmail.com</a></p>
-        <p><i class="fab fa-github"></i> <a href="https://github.com/areeb9206" target="_blank">github.com/areeb9206</a></p>
+
+  <!-- NAVBAR -->
+
+  <nav class="navbar">
+
+    <ul class="nav-links">
+
+      <li><a href="#hero">Home</a></li>
+
+      <li><a href="#about">About</a></li>
+
+      <li><a href="#projects">Projects</a></li>
+
+      <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+  </nav>
+
+
+  <!-- HERO -->
+
+  <section
+    id="hero"
+    class="section hero"
+  >
+
+    <div class="hero-content">
+
+      <h1>
+        Hi, I'm
+        <span>Areeb Ahmed</span>
+      </h1>
+
+      <h3>
+        Frontend Developer
+      </h3>
+
+      <p class="intro">
+
+        Motivated Computer Science undergraduate
+        skilled in frontend web development and
+        cloud computing fundamentals.
+
+        Passionate about building responsive,
+        modern and user-friendly web applications.
+
+      </p>
+
+      <div class="hero-buttons">
+
+        <a href="#projects" class="btn">
+          View Projects
+        </a>
+
+        <a
+          href="CV/"
+          target="_blank"
+          class="btn secondary-btn"
+        >
+          View CV
+        </a>
+
       </div>
 
-      <div class="section">
-        <h2>Skills</h2>
-        <ul>
-          <li><i class="fab fa-html5"></i> HTML</li>
-          <li><i class="fab fa-css3"></i> CSS</li>
-          <li><i class="fab fa-js-square"></i> JavaScript (ES5)</li>
-          <li><i class="fas fa-fire"></i> Firebase</li>
-          <li><i class="fas fa-file-word"></i> MS Word</li>
-        </ul>
+    </div>
+
+
+    <div class="hero-img">
+
+      <img
+        src="images/myimg1.jpeg"
+        alt="Areeb Ahmed"
+      >
+
+    </div>
+
+  </section>
+
+
+  <!-- ABOUT -->
+
+  <section
+    id="about"
+    class="section about"
+  >
+
+    <h2>
+      About Me
+    </h2>
+
+    <p>
+
+      I'm a frontend developer from Karachi,
+      Pakistan with experience in creating
+      responsive business websites and modern UI.
+
+      I have completed Web & App Development
+      training from Jawan Pakistan Program and
+      AWS Cloud Computing training from
+      NED University.
+
+      Currently pursuing BSCS while improving
+      my frontend and cloud engineering skills.
+
+    </p>
+
+
+    <div class="skills">
+
+      <span>HTML</span>
+
+      <span>CSS</span>
+
+      <span>JavaScript</span>
+
+      <span>Firebase</span>
+
+      <span>Bootstrap</span>
+
+      <span>AWS</span>
+
+      <span>Python</span>
+
+      <span>C++</span>
+
+    </div>
+
+  </section>
+
+
+  <!-- PROJECTS -->
+
+  <section
+    id="projects"
+    class="section projects"
+  >
+
+    <h2>
+      Featured Projects
+    </h2>
+
+    <div class="project-grid">
+
+
+      <div class="project-card">
+
+        <img
+          src="images/logo-removebg-preview.png"
+          alt="Artrixx"
+        >
+
+        <h3>
+          Artrixx Store
+        </h3>
+
+        <p>
+          Fully responsive ecommerce website
+          developed using HTML, CSS and JavaScript.
+        </p>
+
+        <a
+          href="https://artrixx.store"
+          target="_blank"
+          class="btn"
+        >
+          Live Website
+        </a>
+
       </div>
 
-      <div class="section">
-        <h2>Languages</h2>
-        <ul>
-          <li><i class="fas fa-language"></i> English</li>
-          <li><i class="fas fa-language"></i> Urdu</li>
-        </ul>
+
+      <div class="project-card">
+
+        <img
+          src="images/logo.png"
+          alt="Fleet Fix Rescue"
+        >
+
+        <h3>
+          Fleet Fix Rescue
+        </h3>
+
+        <p>
+          Professional business website with
+          responsive layout and modern UI.
+        </p>
+
+        <a
+          href="https://fleetfixrescue.com"
+          target="_blank"
+          class="btn"
+        >
+          Live Website
+        </a>
+
       </div>
 
-      <div class="section">
-        <h2>Personal Details</h2>
-        <ul>
-          <li><strong>Father:</strong> Shafique Ahmed</li>
-          <li><strong>DOB:</strong> 01/04/2008</li>
-          <li><strong>Nationality:</strong> Pakistani</li>
-        </ul>
+
+      <div class="project-card">
+
+        <img
+          src="images/quizimg.png"
+          alt="Quiz App"
+        >
+
+        <h3>
+          Quiz App
+        </h3>
+
+        <p>
+          Interactive JavaScript quiz application
+          with score tracking system.
+        </p>
+
+        <a
+          href="https://areeb9206.github.io/Quiz-App/"
+          target="_blank"
+          class="btn"
+        >
+          Live Demo
+        </a>
+
       </div>
-    </aside>
+<!-- Frontend Assignment -->
 
-    <main class="main-content">
-      <section>
-        <h2>Objective</h2>
-        <p>To seek a challenging post in an oriented organization, contributing positively with my knowledge, abilities, and skills. I aim to serve with integrity and diligence.</p>
-      </section>
+<div class="project-card">
 
-      <section>
-        <h2>Education</h2>
-        <ul>
-          <li>Intermediate (Computer Science) - Siraj-ud-Daulah College</li>
-          <li>Matriculation (Computer Science) - ZA Children Academy</li>
-        </ul>
-      </section>
+  <img
+    src="images/section-3-img7.png"
+    alt="Frontend Assignment"
+  >
 
-      <section>
-        <h2>Work Experience</h2>
-        <div class="job">
-          <h3>Pasha Inventions PVT.</h3>
-          <p><strong>Sales Executive – Client Acquisition</strong> (Nov 2023 – Present)</p>
-          <ul>
-            <li>Handled client acquisition to drive sales growth</li>
-            <li>Built strong relationships with prospective clients</li>
-          </ul>
-        </div>
-      </section>
+  <h3>
+    Frontend Assignment
+  </h3>
 
-      <section>
-        <h2>Achievement</h2>
-        <p>Completed Web & App Development course covering HTML, CSS, JavaScript (ES5), and Firebase.<br><em>Jawan Pakistan Program – Adamjee Institute</em></p>
-      </section>
+  <p>
+    Responsive frontend assignment project
+    focused on layouts and styling.
+  </p>
 
-      <section>
-        <h2>Recent Project</h2>
-        <div class="project">
-          <h3><a href="https://www.artrixx.store" target="_blank">Client Business Website - Artrixx</a></h3>
-          <p>Developed a fully responsive website for my client using HTML, CSS, and vanilla JavaScript. Delivered on brand design, contact form integration, and mobile optimization.</p>
-        </div>
-      </section>
-    </main>
+  <a
+    href="https://areeb9206.github.io/18th-Assignment/"
+    target="_blank"
+    class="btn"
+  >
+    View Project
+  </a>
+
+</div>
+
+
+<!-- Hackathon Project -->
+
+<div class="project-card">
+
+  <img
+    src="images/bciw-en.jpg"
+    alt="Hackathon"
+  >
+
+  <h3>
+    Hackathon Project
+  </h3>
+
+  <p>
+    Collaborative frontend hackathon
+    project with responsive design.
+  </p>
+
+  <a
+    href="https://areeb9206.github.io/Hackathon-/"
+    target="_blank"
+    class="btn"
+  >
+    View Project
+  </a>
+
+</div>
+
+
+<!-- Todo App -->
+
+<div class="project-card">
+
+  <img
+    src="images/todoimg.png"
+    alt="Todo App"
+  >
+
+  <h3>
+    Todo App
+  </h3>
+
+  <p>
+    Task management app with Firebase
+    integration and clean interface.
+  </p>
+
+  <a
+    href="https://areeb9206.github.io/Todo-App/"
+    target="_blank"
+    class="btn"
+  >
+    Live Demo
+  </a>
+
+</div>
+    </div>
+
+  </section>
+
+<!-- APK SECTION -->
+
+<section
+  id="apk"
+  class="section projects"
+>
+
+  <h2>
+    Android APK Apps
+  </h2>
+
+  <div class="project-grid">
+
+
+    <!-- Quiz APK -->
+
+    <div class="project-card">
+
+      <h3>
+        Quiz App APK
+      </h3>
+
+      <p>
+        Download Android version of my
+        Quiz Application.
+      </p>
+
+      <a
+        href="Quiz-App/android/app-release.apk"
+        download
+        class="btn"
+      >
+        Download APK
+      </a>
+
+    </div>
+
+
+    <!-- Todo APK -->
+
+    <div class="project-card">
+
+      <h3>
+        Todo App APK
+      </h3>
+
+      <p>
+        Download Android version of my
+        Todo Application.
+      </p>
+
+      <a
+        href="Todo-App/android/app-release.apk"
+        download
+        class="btn"
+      >
+        Download APK
+      </a>
+
+    </div>
+
+
+    <!-- Notes APK -->
+
+    <div class="project-card">
+
+      <h3>
+        Notes App APK
+      </h3>
+
+      <p>
+        Download Android version of my
+        Notes Application.
+      </p>
+
+      <a
+        href="#"
+        class="btn"
+      >
+        Download APK
+      </a>
+
+    </div>
+
   </div>
+
+</section>
+
+  <!-- CONTACT -->
+
+  <section
+    id="contact"
+    class="section contact"
+  >
+
+    <h2>
+      Contact Me
+    </h2>
+
+    <p>
+      Let's connect and build something amazing together.
+    </p>
+
+    <div class="contact-details">
+
+      <p>
+        📍 Karachi, Pakistan
+      </p>
+
+      <p>
+        📞 0315-2906839
+      </p>
+
+      <p>
+        📧 areebahmed200801@gmail.com
+      </p>
+
+    </div>
+
+
+    <div class="socials">
+
+      <a
+        href="mailto:areebahmed200801@gmail.com"
+      >
+        <i class="fas fa-envelope"></i>
+      </a>
+
+      <a
+        href="https://github.com/areeb9206"
+        target="_blank"
+      >
+        <i class="fab fa-github"></i>
+      </a>
+
+      <a
+        href="https://www.linkedin.com"
+        target="_blank"
+      >
+        <i class="fab fa-linkedin"></i>
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <p>
+      © 2026 Areeb Ahmed | All Rights Reserved
+    </p>
+
+  </footer>
+
+
+  <!-- JAVASCRIPT -->
+
+ 
+
 </body>
+
 </html>
